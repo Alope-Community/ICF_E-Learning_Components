@@ -4,7 +4,7 @@ export default function page() {
   return (
     <section className="bg-gray-100 py-10">
       <h1 className="text-black text-center my-8 lg:text-4xl sm:text-2xl font-semibold">
-        Browse Top <span className="text-[#1d59ff] font-bold">Categories</span>
+        Browse Top <span className="text-[#1d59ff] font-bold"> Categories</span>
       </h1>
       <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-7 mx-9 my-10">
         <div className="md:flex hidden items-center bg-white p-5 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
@@ -38,7 +38,7 @@ export default function page() {
           <div className="ml-5">
             <h1 className="lg:text-2xl sm:text-xl font-bold text-gray-800">UI/UX</h1>
             <p className="md:text-lg text-sm text-gray-600 mt-2">50 courses </p>
-          </div>
+          </div>  
         </div>
         <div className="flex items-center bg-white p-5 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
           <img
